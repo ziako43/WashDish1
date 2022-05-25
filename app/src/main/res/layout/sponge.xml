@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/this_sponge"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/nameofsponge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Название"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/priceofsponge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Цена"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_buy"
+            android:layout_width="167dp"
+            android:layout_height="60dp"
+
+            android:background="@drawable/button"
+            android:text="купить" />
+
+    </LinearLayout>
+
+</LinearLayout>
